@@ -1,0 +1,47 @@
+{
+  "name": "opentable/iis",
+  "version": "1.1.0",
+  "source": "UNKNOWN",
+  "author": "opentable",
+  "license": "MIT",
+  "summary": "Module that will manage IIS for windows server 2008 and above. It will help maintain application pools, sites and virtual applications",
+  "description": "UNKNOWN",
+  "project_page": "https://github.com/opentable/puppet-iis",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">=3.0.0"
+    },
+    {
+      "name": "joshcooper/powershell",
+      "version_requirement": ">=0.0.6"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "06ed10e0ccfd585198c14cb97503990c",
+    "Gemfile.lock": "19b017669a05c4fd93df31be78df9491",
+    "LICENSE": "9c0fa16bad03a35916263a973ef195ec",
+    "Modulefile": "362f06ff4bc26c4a2e6be7ab38c62c16",
+    "README.md": "ef20c8fff4b0919383983b1a13308889",
+    "Rakefile": "ac2e24471685c1ea81d6ab2aee78e756",
+    "manifests/createpath.pp": "bb481cbe8386a8df2529afea09dbad74",
+    "manifests/init.pp": "7bbba45d829f5e6e031b231e2b2f6034",
+    "manifests/manage_app_pool.pp": "03b99468f4311ef060c9be475d7a9ee2",
+    "manifests/manage_binding.pp": "6a76bd4b1fe8c7d6708a37dd6a515a7c",
+    "manifests/manage_site.pp": "2cf05d519457df0c0f99167c877b2bc1",
+    "manifests/manage_site_state.pp": "f83b88f8b1da2c60a25510b87d6fd334",
+    "manifests/manage_virtual_application.pp": "8981c3df105484c0ad2988b9fc203c66",
+    "manifests/param/powershell.pp": "284e03ef7f2a7801e4ad6ba5361b1591",
+    "spec/defines/manage_app_pool_spec.rb": "0d0b8af81fa98be955188b9dc61d44ee",
+    "spec/defines/manage_binding_spec.rb": "50d95971f441436256bc32def23ba909",
+    "spec/defines/manage_site_spec.rb": "62bac146cc0f76e120610ef2cff4ec32",
+    "spec/defines/manage_site_state_spec.rb": "eadd3b17e1ccb763fffb2325bc947a89",
+    "spec/defines/manage_virtual_application_spec.rb": "c03b0f2d92994240ba03bc3d8b521d9e",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/create-certificate-binding.ps1.erb": "378d82df44a7cdf4336d0adc3030feda",
+    "templates/inspect-certificate-binding.ps1.erb": "d2b93affc48f0e8dfd975804843426e8"
+  }
+}
