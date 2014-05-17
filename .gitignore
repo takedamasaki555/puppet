@@ -1,4 +1,5 @@
 *.conf
+!fileserver.conf
 *.yaml
 ssl/
 templates/
